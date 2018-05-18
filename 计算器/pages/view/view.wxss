@@ -1,0 +1,45 @@
+/* pages/view/view.wxss */
+.bg{
+  width: 100%;
+  height: 153px;
+  }
+    .td{
+     text-align: center;
+    justify-content: center;
+    color:inherit;
+    background-color:inherit;
+    border: 1px solid darkgray;
+    width: 5em;
+    height: 90px;
+    box-sizing:border-box;
+  }
+  .tr{
+    display: flex;
+    background-color:silver;
+    color:blue;
+  }
+  .center{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .tr_1,.tr_2,.tr_3,.tr_4{
+    display: flex;
+    flex-direction: row;
+  }
+  .sym{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color:silver;
+  color:blue;
+  }
+  .sym .td_evl{
+    box-sizing: border-box;
+    display: flex;
+    color:inherit;
+    background-color:inherit;
+    border: 1px solid darkgray;
+    width: 5em;
+    height: 180px;
+  }

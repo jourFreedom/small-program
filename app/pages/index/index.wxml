@@ -1,0 +1,8 @@
+<!--pages/index/index.wxml-->
+<view class="bgcolor">
+  <view class='center' bindtap='search'>
+  <icon class='icon' type="search" size='18' color='red'/>
+    搜索
+  </view>
+</view>
+

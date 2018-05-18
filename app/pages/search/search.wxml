@@ -1,0 +1,8 @@
+<!--pages/search/search.wxml-->
+<view class='searchWorld'>
+  <view class='today'>
+    <view>今日特惠</view>
+  <view>全网搜索</view>
+  </view>
+  <input placeholder='请输入搜索词' placeholder-style=" color: white "></input>
+</view>

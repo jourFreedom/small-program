@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/history/history",
+    "pages/logs/logs",
+    "pages/view/view"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#e64340",
+    "navigationBarTitleText": "计算器",
+    "navigationBarTextStyle": "black"
+  }
+}

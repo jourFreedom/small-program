@@ -1,0 +1,7 @@
+/* pages/search/search.wxss */
+.searchWorld{
+  display: flex;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+}

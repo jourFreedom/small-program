@@ -1,0 +1,43 @@
+<!--pages/view/view.wxml-->
+<view class='bg'>
+{{display}}
+</view>
+<view class='tr' >
+    <view  class='td' >{{int}}</view>
+    <view  class='td'>{{divice}}</view>
+    <view  class='td'>{{mul}}</view>
+    <view  class='td'>{{back}}</view>
+</view>
+<view class='center'>
+  <view class='tr2'>
+  <view class='tr_1'>
+    <view  class='td' bindtap='num7'>{{num7}}</view>
+    <view  class='td' bindtap='num8'>{{num8}}</view>
+    <view  class='td' bindtap='num9'>{{num9}}</view>
+  </view>
+  <view class='tr_2'>
+    <view  class='td' bindtap='num4'>{{num4}}</view>
+    <view  class='td' bindtap='num5'>{{num5}}</view>
+    <view  class='td' bindtap='num6'>{{num6}}</view>
+  </view>
+  <view class='tr_3'>
+    <view  class='td' bindtap='num1'>{{num1}}</view>
+    <view  class='td' bindtap='num2'>{{num2}}</view>
+    <view  class='td' bindtap='num3'>{{num3}}</view>
+  </view>
+  <view class='tr_4'>
+    <view  class='td'>{{di}}</view>
+    <view  class='td'>{{0}}</view>
+    <view  class='td'>{{spot}}</view>
+  </view>
+  </view>
+ <view class= 'sym'>
+  <view  class='td'>{{d}}</view>
+  <view  class='td' bindtap='add'>{{add}}</view>
+  <view  class='td_evl' bindtap='evl'>{{evl}}</view>
+  </view>
+</view>
+
+ 
+
+

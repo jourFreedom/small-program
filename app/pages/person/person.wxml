@@ -1,0 +1,13 @@
+<!--pages/person/person.wxml-->
+<view class="containe">  
+  <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>  
+  <view  class="userinfo">  
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    <view class='canvas'>消费者</view> 
+  </view>  
+</view>  
+  <view class="bind">
+      <icon  type="{{iconType}}" size='15'/>
+      <text class="text">{{text}}</text>
+      <button class="bind-b"  bindtap='bind'>立即绑定</button>
+  </view>

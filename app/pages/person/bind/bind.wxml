@@ -1,0 +1,11 @@
+<!--pages/person/bind/bind.wxml-->
+<view class="phone">
+  <block >手机号</block>
+  <input placeholder='请输入手机号' placeholder-style='padding-left: 10px;' value='' type="number" maxlength='11' focus='true' ></input>
+  <button class='bgcolor' disabled='{{false}}'>获取验证码</button>
+</view>
+<view class="cap">
+  <block>验证码</block>
+  <input placeholder="请输入验证码" type="text" placeholder-style='padding-left: 10px;' maxlength='6' focus='true' ></input>
+</view>
+<button class='confirm'>确认</button>
