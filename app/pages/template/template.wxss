@@ -1,1 +1,43 @@
 /* pages/template/template.wxss */
+.box{
+  width: 50%;
+  height: 350px;
+  overflow: hidden;
+}
+.introduce{
+  font-size: 12px;
+  display: flex;
+  height: 33px;
+  width: 100%;
+}
+.cost{
+  width: 100%;
+  height: 50px;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 100%;
+  
+}
+.discount{
+  color: red;
+  font-size: 12px;
+
+}
+.price{
+  color: gray;
+  font-size: 10px;
+}
+.coupon{
+  background-color: red;
+  font-size: 12px;
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+}
+.volume{
+  font-size: 10px;
+  color: gray;
+}

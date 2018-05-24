@@ -5,7 +5,8 @@
     "pages/person/person",
     "pages/person/bind/bind",
     "pages/search/search",
-    "pages/template/template"
+    "pages/template/template",
+    "pages/information/information"
   ],
   "window": {
     "backgroundTextStyle": "light",

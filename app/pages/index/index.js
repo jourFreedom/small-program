@@ -5,14 +5,26 @@ Page({
    * 页面的初始数据
    */
   data: {
-    template: ""
+    template: "",
+      introduce: {
+        produce: "【平底锅】能挡任何子弹的平底锅家常必备",
+        price:"￥199.00",
+        discount: "￥99.00",
+        coupon:"￥100",
+        volume:"999"
+      }
   },
+  
   search: function(){
     wx.navigateTo({
       url: '../search/search',
     })
   },
-
+  information: function () {
+    wx.navigationTo({
+      url: "../information/information"
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

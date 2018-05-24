@@ -1,0 +1,6 @@
+<!--pages/information/information.wxml-->
+<view>
+  <view>
+    <image src='../images/1.jpg'></image>
+  </view>
+</view>

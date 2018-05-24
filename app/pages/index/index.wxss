@@ -1,10 +1,8 @@
 /* pages/index/index.wxss */
-page{
-  
-}
+@import "../template/template";  
 .bgbox{
   padding-top: 5px;
-  width: 375px;
+  width: 100%;
   height:28px;
   background-color: red;
   align-items: center;

@@ -1,4 +1,19 @@
 <!--pages/template/template.wxml-->
-<template name="item">
-  <image src='../images/1.jpg'></image>
+<template name="item" >
+  <view class='box'>
+      <image src='../images/1.jpg'></image>
+      <view class='introduce'>
+        <text>{{produce}}</text>
+      </view>
+      <view class='cost'>
+        <view class='row'>
+          <view class='discount'>券后{{discount}}</view>
+          <view class='price'>{{price}}</view>
+        </view>
+        <view class='row'>
+          <view class="coupon">券{{coupon}}</view>
+          <view class='volume'>月销量{{volume}}</view>
+        </view>
+      </view>
+  </view>
 </template>
