@@ -5,5 +5,5 @@
       <icon class='icon' type="search" size='18' color='red'/> 搜索
     </view>
   </view>
-  <template is="item">{{}}</template>
+  <template>{{}}</template>
 </view>
