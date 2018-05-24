@@ -1,8 +1,25 @@
 <!--pages/search/search.wxml-->
 <view class='searchWorld'>
-  <view class='today'>
-    <view>今日特惠</view>
-  <view>全网搜索</view>
+  <view class='search'>
+    <view class='{{today}}' bindtap='today'>今日特惠</view>
+    <view class='{{net}}' bindtap='net'>全网搜索</view>
   </view>
-  <input placeholder='请输入搜索词' placeholder-style=" color: white "></input>
+<view class='searchbox'>
+  <view class='left'>
+    <view class='input'>
+    <input class='input_i' placeholder='请输入搜索词' value='{{value}}' placeholder-style=" color: white"            bindinput='bindvalue' >
+    </input>
+    <icon type='clear' bindtap='clear' size='12'></icon>
+  </view>
+  <view class='line'></view>
+  </view>
+  <view class='right_icon'>
+    <icon class='icon' bindtap='toSearch' type='search' size='21' color='white'>
+    </icon>
+  </view>
+</view>
+</view>
+<view class='content'>
+    <view hidden='{{hidden}}' class='warn'>请输入搜索词</view>
+    
 </view>

@@ -1,0 +1,4 @@
+<!--pages/template/template.wxml-->
+<template name="item">
+  <image src='../images/1.jpg'></image>
+</template>

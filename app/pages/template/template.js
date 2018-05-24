@@ -1,16 +1,11 @@
-// pages/index/index.js
+// pages/template/template.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    template: ""
-  },
-  search: function(){
-    wx.navigateTo({
-      url: '../search/search',
-    })
+  
   },
 
   /**
