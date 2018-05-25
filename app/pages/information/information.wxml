@@ -1,6 +1,11 @@
 <!--pages/information/information.wxml-->
-<view>
-  <view>
-    <image src='../images/1.jpg'></image>
+<view class='banner'>
+    <image src='../images/1.jpg' mode='scaleToFill'></image>
+</view>
+<view class='tabbar'>
+  <view class='s'>
+    <view class='index'>首页</view>
+    <view class='share'>分享</view>
   </view>
+  <view class="perchase">优惠购买</view>
 </view>

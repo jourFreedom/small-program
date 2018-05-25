@@ -1,6 +1,6 @@
 <!--pages/index/index.wxml-->
 <import src="../template/template"/>
-<view class="bgbox">
+<view class="bgbox" >
   <view class='center' bindtap='search'>
   <icon class='icon' type="search" size='18' color='red'/>
     搜索
@@ -8,4 +8,7 @@
 </view>
 
 <!-- is属性申明要引用模板   -->
-<template is="item" data="{{...introduce}}" bindtap="information"></template>   
+<view class='item'  bindtap='information'>
+  <template is="item" data="{{...introduce}}" bindtap="information"></template>   
+</view>
+

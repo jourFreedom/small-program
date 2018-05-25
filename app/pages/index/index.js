@@ -20,8 +20,8 @@ Page({
       url: '../search/search',
     })
   },
-  information: function () {
-    wx.navigationTo({
+  information: function(){
+    wx.navigateTo({
       url: "../information/information"
     })
   },
