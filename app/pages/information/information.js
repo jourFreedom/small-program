@@ -5,9 +5,20 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    introduce: {
+      produce: "【平底锅】能挡任何子弹的平底锅家常必备",
+      price: "￥199.00",
+      discount: "￥99.00",
+      coupon: "￥100",
+      volume: "999"
+    }
   },
-
+  backindex: function(){
+    wx.navigateBack({
+      url: '../index/index',
+    })
+  },
+  
   /**
    * 生命周期函数--监听页面加载
    */
@@ -61,6 +72,9 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-  
-  }
+    return {
+      title: "首作，不喜勿喷",
+      desc: "抛弃一切借口，真正行动起来，梦想走过的路，跪着也要走完"
+    }
+  },
 })

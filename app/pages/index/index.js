@@ -1,6 +1,5 @@
 // pages/index/index.js
 Page({
-
   /**
    * 页面的初始数据
    */
@@ -24,6 +23,9 @@ Page({
     wx.navigateTo({
       url: "../information/information"
     })
+  },
+  onPullDownRefresh: function () {
+    wx.stopPullDownRefresh()
   },
   /**
    * 生命周期函数--监听页面加载
@@ -78,6 +80,9 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-  
+    return {
+      title: "首作，不喜勿喷",
+      desc: "奔跑不单是一种能力，更是一种态度，决定你人生高度的态度"
+    }
   }
 })

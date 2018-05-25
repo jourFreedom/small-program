@@ -1,7 +1,8 @@
 /* pages/information/information.wxss */
+@import "../template/template";
 .tabbar{
-  position: absolute;
-  bottom: 1px;
+  position: fixed;
+  bottom: 0px;
   display: flex;
   flex-basis: 100%;
   background-color: red;
@@ -19,6 +20,18 @@
   font-size: 16px;
   
 }
-.index{
+.share{
+  background: none;
+  color: red
+}
+.share::after{
+  border: none;
+}
+.perchase{
+  flex-basis: 50%;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  
 }

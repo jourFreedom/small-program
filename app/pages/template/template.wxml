@@ -1,7 +1,25 @@
 <!--pages/template/template.wxml-->
-<template name="item" >
+<template name="item1" >
   <view class='box'>
-      <image src='../images/1.jpg'></image>
+      <image src='../images/1.jpg' mode='aspectFit'></image>
+      <view class='introduce'>
+        <text>{{produce}}</text>
+      </view>
+      <view class='cost'>
+        <view class='row'>
+          <view class='discount'>券后{{discount}}</view>
+          <view class='price'>{{price}}</view>
+        </view>
+        <view class='row'>
+          <view class="coupon">券{{coupon}}</view>
+          <view class='volume'>月销量{{volume}}</view>
+        </view>
+      </view>
+  </view>
+</template>
+<template name="item2" >
+  <view class='box'>
+      <image src='../images/2.jpg' mode='aspectFit'></image>
       <view class='introduce'>
         <text>{{produce}}</text>
       </view>

@@ -9,6 +9,27 @@
 
 <!-- is属性申明要引用模板   -->
 <view class='item'  bindtap='information'>
+  <template is="item1" data="{{...introduce}}" bindtap="information"></template>   
+</view>
+<view class='item'  bindtap='information'>
+  <template is="item2" data="{{...introduce}}" bindtap="information"></template>   
+</view>
+<view class='item'  bindtap='information'>
+  <template is="item" data="{{...introduce}}" bindtap="information"></template>   
+</view>
+<view class='item'  bindtap='information'>
+  <template is="item" data="{{...introduce}}" bindtap="information"></template>   
+</view>
+<view class='item'  bindtap='information'>
+  <template is="item" data="{{...introduce}}" bindtap="information"></template>   
+</view>
+<view class='item'  bindtap='information'>
+  <template is="item" data="{{...introduce}}" bindtap="information"></template>   
+</view>
+<view class='item'  bindtap='information'>
+  <template is="item" data="{{...introduce}}" bindtap="information"></template>   
+</view>
+<view class='item'  bindtap='information'>
   <template is="item" data="{{...introduce}}" bindtap="information"></template>   
 </view>
 

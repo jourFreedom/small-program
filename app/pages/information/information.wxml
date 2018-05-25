@@ -1,11 +1,10 @@
 <!--pages/information/information.wxml-->
-<view class='banner'>
-    <image src='../images/1.jpg' mode='scaleToFill'></image>
-</view>
+<import src="../template/template"/>
+<template is="item" data="{{...introduce}}"></template>
 <view class='tabbar'>
   <view class='s'>
-    <view class='index'>首页</view>
-    <view class='share'>分享</view>
+    <view class='index' bindtap='backindex'>首页</view>
+    <view ><button class='share' open-type='share' >分享</button></view>
   </view>
   <view class="perchase">优惠购买</view>
 </view>
