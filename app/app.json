@@ -9,10 +9,13 @@
     "pages/information/information"
   ],
   "window": {
+    "enablePullDownRefresh": true,   
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "阿毛",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#e8e5e8"  
+ 
   },
   "tabBar": {
     "color": "#000",

@@ -6,30 +6,47 @@
     搜索
   </view>
 </view>
+<!--  刷新加载页面 -->
 
-<!-- is属性申明要引用模板   -->
-<view class='item'  bindtap='information'>
-  <template is="item1" data="{{...introduce}}" bindtap="information"></template>   
+<view class='loadding' hidden='{{isLoaddingHidden}}'>
+<view class='loadding_icon'></view>
+正在加载</view>
+<!--  轮播图页面 -->
+<view class='container' hidden='{{hidden}}'>
+      <view class='page'>
+        <swiper indicator-dots='true' indicator-color='' autoplay='true' circular='true'>
+          <swiper-item>
+              <image src='/pages/images/1.jpg'></image>
+          </swiper-item>
+          <swiper-item>
+              <image src='/pages/images/2.jpg'></image>
+          </swiper-item>
+          <swiper-item>
+              <image src='/pages/images/1.jpg'></image>
+          </swiper-item>
+        </swiper>
+    </view>
+  <!-- is属性申明要引用模板   -->
+  <view class='items'>
+    <view class='item'  bindtap='pdg'>
+      <template is="pdg" data="{{...pdg}}" bindtap="information"></template>   
+    </view>
+    <view class='item'  bindtap='bfdj'>
+      <template is="bfdj" data="{{...bfdj}}" bindtap="information"></template>   
+    </view>
+    <view class='item'  bindtap='pdg'>
+      <template is="pdg" data="{{...pdg}}" bindtap="information"></template>   
+    </view>
+    <view class='item'  bindtap='bfdj'>
+      <template is="bfdj" data="{{...bfdj}}" bindtap="information"></template>   
+    </view>
+    <view class='item'  bindtap='pdg'>
+      <template is="pdg" data="{{...pdg}}" bindtap="information"></template>   
+    </view>
+    <view class='item'  bindtap='bfdj'>
+      <template is="bfdj" data="{{...bfdj}}" bindtap="information"></template>   
+    </view>
+  </view>
 </view>
-<view class='item'  bindtap='information'>
-  <template is="item2" data="{{...introduce}}" bindtap="information"></template>   
-</view>
-<view class='item'  bindtap='information'>
-  <template is="item" data="{{...introduce}}" bindtap="information"></template>   
-</view>
-<view class='item'  bindtap='information'>
-  <template is="item" data="{{...introduce}}" bindtap="information"></template>   
-</view>
-<view class='item'  bindtap='information'>
-  <template is="item" data="{{...introduce}}" bindtap="information"></template>   
-</view>
-<view class='item'  bindtap='information'>
-  <template is="item" data="{{...introduce}}" bindtap="information"></template>   
-</view>
-<view class='item'  bindtap='information'>
-  <template is="item" data="{{...introduce}}" bindtap="information"></template>   
-</view>
-<view class='item'  bindtap='information'>
-  <template is="item" data="{{...introduce}}" bindtap="information"></template>   
-</view>
+  
 

@@ -1,6 +1,6 @@
 <!--pages/information/information.wxml-->
 <import src="../template/template"/>
-<template is="item" data="{{...introduce}}"></template>
+<template is="pdg" data="{{...introduce}}"></template>
 <view class='tabbar'>
   <view class='s'>
     <view class='index' bindtap='backindex'>首页</view>

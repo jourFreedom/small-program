@@ -1,8 +1,6 @@
 /* pages/template/template.wxss */
 .box{
-  width: 50%;
   height: 350px;
-  overflow: hidden;
 }
 .introduce{
   font-size: 12px;
@@ -17,7 +15,7 @@
 .row{
   display: flex;
   justify-content: space-between;
-  margin-top: 10px;
+  align-items: center;
   width: 100%;
   
 }
@@ -40,4 +38,9 @@
 .volume{
   font-size: 10px;
   color: gray;
+}
+.image{
+  display: flex;
+  width: 175px;
+  height: 175px;
 }

@@ -1,7 +1,7 @@
 <!--pages/template/template.wxml-->
-<template name="item1" >
+<template name="pdg" >
   <view class='box'>
-      <image src='../images/1.jpg' mode='aspectFit'></image>
+      <image class='image' src='../images/1.jpg' mode='aspectFit'></image>
       <view class='introduce'>
         <text>{{produce}}</text>
       </view>
@@ -17,9 +17,9 @@
       </view>
   </view>
 </template>
-<template name="item2" >
+<template name="bfdj" >
   <view class='box'>
-      <image src='../images/2.jpg' mode='aspectFit'></image>
+      <image class='image' src='../images/2.jpg' mode='aspectFit'></image>
       <view class='introduce'>
         <text>{{produce}}</text>
       </view>
